@@ -1,0 +1,169 @@
+/* Estilo general */
+body {
+    background-color: #f7f2e9;
+    font-family: 'Poppins', sans-serif;
+    color: #5e4534;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 30px; /* Espaciado interno */
+    text-align: center;
+    margin-top: 80px; /* Margen superior para separar del navbar */
+    border-bottom: 3px solid #b08462; /* Línea decorativa */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+    font-size: 3rem;
+    color: #5d4037; /* Color marrón para el encabezado */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #3e2723; /* Un marrón más oscuro para el texto */
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #b08462;
+    height: 80px;
+}
+
+.navbar .nav-link {
+    color: #6ac9ce;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #f8d5b0;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header {
+        padding: 30px 10px; /* Reduce el padding para pantallas pequeñas */
+    }
+
+    header h1 {
+        font-size: 2.5rem; /* Reduce el tamaño del título */
+    }
+
+    header p {
+        font-size: 1.2rem; /* Ajusta el subtítulo */
+    }
+
+    .navbar {
+        height: auto; /* Permite que se ajuste automáticamente */
+        padding: 10px; /* Reduce el espacio interno */
+    }
+
+    .navbar .nav-link {
+        font-size: 1rem; /* Reduce el tamaño de los enlaces */
+        margin-right: 10px;
+    }
+
+    .navbar-brand img {
+        height: 50px; /* Ajusta el tamaño del logo */
+        width: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem; /* Título más pequeño en teléfonos */
+    }
+
+    header p {
+        font-size: 1rem; /* Ajusta el subtítulo */
+    }
+
+    .navbar .nav-link {
+        font-size: 0.9rem; /* Enlaces más compactos */
+    }
+
+    .navbar-brand img {
+        height: 40px; /* Ajuste adicional del logo */
+        width: 40px;
+    }
+}
+
+/* Secciones generales */
+section {
+    background-color: #fff8f0;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #b08462;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 20px; /* Reduce el espacio interno */
+    }
+
+    section h2 {
+        font-size: 1.5rem; /* Tamaño más pequeño para títulos */
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #b08462;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.imagen-acerca {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #f8d5b0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .imagen-acerca {
+        width: 150px; /* Reduce el tamaño de la imagen */
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen-acerca {
+        width: 100px; /* Ajuste adicional para pantallas pequeñas */
+    }
+}

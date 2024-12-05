@@ -1,0 +1,307 @@
+/* General */
+body {
+    background-color: #fdf0e0;
+    font-family: 'Arial', sans-serif;
+    margin-top: 80px;
+}
+
+header {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 30px; /* Espaciado interno */
+    text-align: center;
+    margin-top: 80px; /* Margen superior para separar del navbar */
+    border-bottom: 3px solid #b08462; /* Línea decorativa */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #5d4037; /* Color marrón para el encabezado */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+header p {
+    font-size: 1.2rem;
+    color: #3e2723; /* Un marrón más oscuro para el texto */
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fdf0e0;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #d49f56;
+}
+
+section {
+    background-color: #ffebc2;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #6e4b3b;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+/* Navbar */
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffebc2;
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    background-color: #ecf0f1;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ffebc2;
+    font-weight: bold;
+}
+
+/* Sección General */
+section {
+    background-color: #ffebc2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center; /* Asegura que todo el texto dentro de la sección esté centrado */
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Acerca de Nosotros */
+.imagen-acerca {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; 
+}
+
+/* Accordion */
+.accordion-button {
+    background-color: #92dac29f !important;
+    color: #000000;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #16a085;
+    color: white;
+}
+
+/* Carrusel */
+#carrusel .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Cards */
+.card-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Permite que las cards se acomoden en dispositivos pequeños */
+}
+
+.card {
+    width: 18rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.card-text {
+    color: #777;
+}
+
+/* List Group */
+.list-group-item {
+    background-color: #ecf0f1;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.list-group-item:hover {
+    background-color: #16a085;
+    color: white;
+}
+
+/* Contacto */
+#contacto {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contacto h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.form-control {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #16a085;  /* Color de borde cuando está enfocado */
+    box-shadow: 0 0 10px rgba(22, 160, 133, 0.5);
+    outline: none;
+}
+
+textarea.form-control {
+    resize: vertical;  /* Permite redimensionar solo verticalmente */
+}
+
+/* Botón */
+.btn-lg {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-dark {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #16a085;
+    transform: translateY(-5px); /* Efecto de hover con un pequeño desplazamiento */
+}
+
+.text-center {
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem; /* Reducir el tamaño de fuente en pantallas pequeñas */
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-group {
+        flex-direction: column; /* Las cards se apilan en pantallas pequeñas */
+        gap: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px;
+        font-size: 1.2rem;
+    }
+
+    .card {
+        width: 100%; /* Las cards ocupan el 100% del ancho en pantallas pequeñas */
+    }
+
+    .form-control, .btn-lg {
+        font-size: 1rem;
+    }
+
+    #contacto {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem; /* Reducción del tamaño de los enlaces en pantallas extra pequeñas */
+    }
+
+    .btn-lg {
+        padding: 10px 25px; /* Reducir el tamaño del botón */
+        font-size: 1rem;
+    }
+
+    .card-body {
+        font-size: 1rem; /* Ajustar el tamaño de la fuente en el cuerpo de la card */
+    }
+}

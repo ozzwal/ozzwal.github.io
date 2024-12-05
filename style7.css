@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin-top: 80px;
+}
+
+header {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #ac822f;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section img {
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white !important;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: #16a085 !important;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffebc2;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.imagen-acerca {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+.btn-lg {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-dark {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #16a085;
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .imagen-acerca {
+        width: 100%;
+    }
+
+    section img {
+        width: 100%;
+    }
+
+    main {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,191 @@
+/* General */
+body {
+    background-color: #f8f1e1; /* Color de fondo claro, que recuerda a la masa de galletas */
+    font-family: 'Arial', sans-serif;
+    color: #5d4037; /* Un color marrón suave para el texto */
+    margin-top: 100px; /* Espacio para el navbar fijo */
+}
+
+footer {
+    background-color: #3e2723; /* Un marrón oscuro para el pie de página */
+    color: white;
+    padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2c3e50;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ffebc2;
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #b08462, #f8d5b0);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #5d4037; /* Color marrón para el encabezado */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #3e2723; /* Un marrón más oscuro para el texto */
+}
+
+/* Sección General */
+section {
+    background-color: #fff3e0; /* Un color pastel de galleta para las secciones */
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #5d4037;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #6d4c41; /* Un marrón suave para el texto */
+}
+
+/* Cards */
+.card {
+    background-color: #ffcc80; /* Un color cálido para las tarjetas */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #3e2723;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6d4c41;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ffb74d;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 12px 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff9800;
+    transform: translateY(-5px);
+}
+
+/* List Group */
+.list-group-item {
+    background-color: #ffeb3b; /* Un amarillo cálido que recuerda a la mantequilla de las galletas */
+    border: none;
+    font-size: 1.1rem;
+    padding: 15px;
+}
+
+.list-group-item:hover {
+    background-color: #ffb74d; /* Color para hover similar al de los botones */
+    color: white;
+}
+
+/* Bootstrap Grid (without media queries) */
+.container {
+    max-width: 1200px; /* Limitar el tamaño máximo del contenedor */
+    margin-top: 50px; /* Espacio para evitar que el contenido se oculte debajo del navbar */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex: 1 1 calc(33.33% - 30px); /* 3 columnas para pantallas medianas y grandes */
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 100%; /* Las tarjetas ocuparán todo el ancho de su columna */
+}
+
+/* Flexbox for cards on smaller screens */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 1 1 100%; /* Las tarjetas ocuparán todo el ancho en pantallas más pequeñas */
+    }
+
+    header h1 {
+        font-size: 2.5rem; /* Reducir el tamaño de fuente en pantallas pequeñas */
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-title {
+        font-size: 1.3rem; /* Reducir el tamaño de la fuente en tarjetas */
+    }
+
+    .card-text {
+        font-size: 1rem; /* Reducir el tamaño de la fuente en tarjetas */
+    }
+    .navbar-nav .nav-link {
+        font-size: 1rem; /* Reducción del tamaño de los enlaces en pantallas extra pequeñas */
+    }
+
+}

@@ -1,0 +1,128 @@
+body {
+    background-color: #f7f2e9;
+    font-family: 'Poppins', sans-serif;
+    color: #5e4534;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #b08462, #f8d5b0);
+    color: #fff;
+    padding: 50x ;
+    text-align: center;
+    border-bottom: 5px solid #8e684d;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    padding: 40px   ;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background-color: #b08462;
+}
+
+.navbar .nav-link {
+    color: #6ac9ce;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #f8d5b0;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 60px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+section {
+    background-color: #fff8f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #b08462;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fef5e7;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    color: #5e4534;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.card-text {
+    color: #7b5c4d;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #b08462;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #8e684d;
+}
+
+footer {
+    background-color: #b08462;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.imagen-acerca {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #f8d5b0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
